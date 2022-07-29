@@ -2,7 +2,7 @@
 
 В проекте реализован алгоритм обучения модели, распознающей статьи журналов $Nature$ $Materials$ ($Q1$) и $Materials$ $Express$ ($Q4$) по их $abstract$.
 
-На первом этапе проводился $scraping$ данных с использованием [двух скриптов](https://github.com/ivan-v-ivanov/Material-Science-Articles-Recognition/blob/main/data-scraping).
+На первом этапе проводился $scraping$ данных с сайтов \textit{Nature Materials} и \textit{Materials Express}.
 
 В дальнейшем текст подвергался очистке от символов, лемматизации и преобразованию $TF-IDF$. 
 Классификация осуществлялась с использованием $XGBoostClassifier$. Используемая метрика для оптимизации параметров: $f1-score$ ([ссылка](https://github.com/ivan-v-ivanov/Material-Science-Articles-Recognition/blob/main/app/model/articles_recognition_model.ipynb)).
