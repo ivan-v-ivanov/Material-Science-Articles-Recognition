@@ -7,4 +7,4 @@
 В дальнейшем текст подвергался очистке от символов, лемматизации. 
 Классификация осуществлялась с использованием $XGBoostClassifier$. Используемая метрика для оптимизации параметров: $f1-score$ ([ссылка](https://github.com/ivan-v-ivanov/Material-Science-Articles-Recognition/blob/main/app/model/articles_recognition_model.ipynb)).
 
-В дополнение реализованы клиентская и серверная части клиентов по доступу к модели с использованием $flask$ ([ссылка](https://github.com/ivan-v-ivanov/Material-Science-Articles-Recognition/tree/main/app)).
+В дополнение реализованы клиентская и серверная части для доступа к модели с использованием $flask$ ([ссылка](https://github.com/ivan-v-ivanov/Material-Science-Articles-Recognition/tree/main/app)).
